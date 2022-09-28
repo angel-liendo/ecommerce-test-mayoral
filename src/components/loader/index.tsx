@@ -1,4 +1,4 @@
-import { LoaderParentStyle, LoaderStyle } from "./Loader.style";
+import { LoaderParentStyle, LoaderStyle } from './Loader.style';
 
 export interface LoaderTypes {
   column: string;
@@ -6,7 +6,7 @@ export interface LoaderTypes {
 
 const Loader = ({ column }: LoaderTypes) => {
   return (
-    <LoaderParentStyle column={column}>
+    <LoaderParentStyle role="loader" column={column}>
       <LoaderStyle></LoaderStyle>
     </LoaderParentStyle>
   );
