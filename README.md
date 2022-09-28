@@ -1,6 +1,14 @@
 # TestMayoral: Next.js + React.js + Typescript + Graphql + CSS Grid
 
-Solución al test Mayoral. Creado por Angel Liendo en Opentrends.
+Solución al test Mayoral. Creado por Angel Liendo en Opentrends. Algunas de las tecnologías usadas fueron las siguientes:
+
+- Next.js
+- React.js
+- Typescript
+- Graphql
+- Apollo Client & Apollo Server
+- Styled Components
+- CSS Grid
 
 ## Cómo ejecutar este proyecto
 
