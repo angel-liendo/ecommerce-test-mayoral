@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { device } from "../../style/deviceMediaQuerys";
+import styled from 'styled-components';
+import { device } from '../../style/deviceMediaQuerys';
 
 export const SearchBarStyle = styled.div`
   display: grid;
@@ -27,6 +27,10 @@ export const SearchBarStyle = styled.div`
     display: flex;
     justify-content: end;
     gap: 30px;
+
+    button:nth-child(1) {
+      margin-right: 16px;
+    }
 
     ${device.phone} {
       grid-row: 1 / 2;

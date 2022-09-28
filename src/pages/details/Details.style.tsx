@@ -33,10 +33,15 @@ export const DetailsStyle = styled.div`
     & > span:nth-child(1) {
       margin: 0 1rem 1rem 0;
     }
+
     & > span {
       display: inline-block;
       font-size: 2rem;
       margin-bottom: 1rem;
+    }
+
+    & button {
+      width: 9rem;
     }
   }
 

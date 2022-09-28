@@ -4,7 +4,6 @@ import { device } from '../../style/deviceMediaQuerys';
 export const CardListStyle = styled.div`
   display: grid;
   grid-template-columns: repeat(4, minmax(min(220px, 100%), clamp(20rem, 100%, 35rem)));
-
   grid-template-rows: repeat(auto-fit, minmax(min(200px, 100%), 44rem));
   gap: 1rem;
   justify-content: center;
@@ -21,6 +20,7 @@ export const CardListStyle = styled.div`
   }
   ${device.phone} {
     grid-template-columns: repeat(2, minmax(min(80px, 100%), 1fr));
+    grid-template-rows: min-content;
   }
   ${device.miniPhone} {
     justify-content: center;
