@@ -40,16 +40,18 @@ const SearchBar = ({
       <div>
         <ButtonIconStyle
           theme="transparent"
-          active={sortButtons.active === sortButtons.descendant}
-          onClick={() => handleOnClickButton(sortButtons.descendant)}
+          active={sortButtons?.active === sortButtons?.descendant}
+          onClick={() => handleOnClickButton(sortButtons?.descendant)}
+          role="button-descendant"
         >
           <Icon imgRoute="minus.png" />
         </ButtonIconStyle>
 
         <ButtonIconStyle
           theme="transparent"
-          active={sortButtons.active === sortButtons.ascendant}
-          onClick={() => handleOnClickButton(sortButtons.ascendant)}
+          active={sortButtons?.active === sortButtons?.ascendant}
+          onClick={() => handleOnClickButton(sortButtons?.ascendant)}
+          role="button-ascendant"
         >
           <Icon imgRoute="plus.png" />
         </ButtonIconStyle>

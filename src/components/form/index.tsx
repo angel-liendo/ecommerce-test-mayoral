@@ -6,7 +6,11 @@ interface FormTypes {
 }
 
 const Form = ({ children, onSubmit }: FormTypes) => {
-  return <FormStyle onSubmit={onSubmit}>{children}</FormStyle>;
+  return (
+    <FormStyle onSubmit={onSubmit} role="form">
+      {children}
+    </FormStyle>
+  );
 };
 
 export default Form;
