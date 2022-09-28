@@ -1,6 +1,6 @@
 # TestMayoral: Next.js + React.js + Typescript + Graphql + CSS Grid
 
-Solución al test Mayoral. Creado por Angel Liendo.
+Solución al test Mayoral. Creado por Angel Liendo en Opentrends.
 
 ## Cómo ejecutar este proyecto
 
@@ -23,3 +23,9 @@ Después, en otra terminal, ejecuta el siguiente comando para levantar el servid
 ```bash
 yarn watch
 ```
+
+Puedes ver el proyecto en el navegador con la siguiente url: [http://localhost:3000/](http://localhost:3000/)
+
+También, puedes acceder al servidor sandbox de Graphql en el navegador: [http://localhost:4000/](http://localhost:4000/)
+
+Disfruta.
